@@ -282,6 +282,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#coming-soon" class="md-nav__link">
     <span class="md-ellipsis">
       Coming Soon:
@@ -389,6 +398,26 @@
   
   
     <li class="md-nav__item">
+      <a href="tests/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Testing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="website/" class="md-nav__link">
         
   
@@ -468,6 +497,15 @@
   <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
       Features:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing:
     </span>
   </a>
   
@@ -568,6 +606,10 @@ print(messages)  # [{'role': 'user', 'content': 'Hello, Claude!'}, {'role': 'ass
 <li><code>alana.remove_xml</code> to strip certain XML tag-enclosed content from a string (along with the tags). This is primarily intended to get rid of "<reasoning>...</reasoning>" strings. ⚠️ Regex parsing of XML may be unreliable! This function has not been thoroughly tested yet!</li>
 <li>A bunch of aliases (Try: <code>alana.few_shot</code>, <code>alana.n_shot</code>, or <code>alana.xml</code>)</li>
 </ul>
+<h2 id="testing">Testing:</h2>
+<p>There are simple tests written with <code>unittest</code>. I am working on extending the test suite.</p>
+<pre><code>$ python simple_tests.py
+</code></pre>
 <h2 id="coming-soon">Coming Soon:</h2>
 <ul>
 <li>Generating alternative prompts given a prompt</li>
